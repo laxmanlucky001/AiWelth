@@ -8,7 +8,7 @@ import { checkUser } from "@/lib/checkUser";
 const Header = async () => {
   await checkUser()
   return (
-    <div className="fixed top-0 w-full bg-white/80 backkdrop-blur-md z-50 border-b">
+    <div className="fixed top-0 w-full bg-white/50 backkdrop-blur-md z-50 border-b">
       <nav className="container mx-auto flex items-center justify-between py-4 px-4">
         <Link href='/'>
           <Image src={"/logo.png"} alt="welth logo" height={60} width={200} className="h-12 w-auto object-contain"/>
